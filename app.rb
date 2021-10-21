@@ -1,7 +1,6 @@
 require "sinatra"
 require "mysql2"
 require "json"
-require "sinatra"
 require "sinatra/cross_origin"
 require "rack"
 

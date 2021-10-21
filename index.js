@@ -1,4 +1,4 @@
-const API_URL = "prueba-bsale.herokuapp.com";
+const API_URL = "http://127.0.0.1:4567/";
 
 const xhttp = new XMLHttpRequest();
 xhttp.addEventListener("load", obtenerProductosClasificadosIniciales);
