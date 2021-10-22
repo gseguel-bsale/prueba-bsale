@@ -17,8 +17,7 @@ Por el lado del frontend, el documento index.js obtiene la informacion de los en
 <p>Backend<p>
 <li>app.rb (aplicacion que se utiliza para conexion con BD, mostrar elementos por JSON,  levantamiento de endpoiints.</li></br>
 <p>Deploy<p>
-<li>config.ru documento utilizado para hacer el deploy que oermite inciar la aplicacion</li>
-<li>Gemfile documento generado para hacer el deploy, contiene las gemas o versiones a utilizar por el servidor</li>
+<li>config.ru documento utilizado para hacer la configuración de rackup para inicial la aplicación</li>
 <li>Prockfile documento solicitado por el server para el deploy</li></br>
 <p>Frontend<p>
 <li>index.js documento que utiliza los endpoints y obtiene la informacion para presentarla en la visual al cliente</li>
@@ -40,7 +39,7 @@ ________________________________________________________________________________
 
 <p>para hacer el archivo Gemfile.lock  se debe instalar bundler</p>
 <p>ademas se debe instalar mysqlclient-dev para la gema mysql2<p>
-<p>Para levantar la API  se utiliza rackup -p 3000 -E production</p>
+<p>Para levantar la API se utiliza rackup -p 3000 -D</p>
 
 ________________________________________________________________________________________________________________________________________________
 
